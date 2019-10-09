@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F04E73F0A5A84936939137D /* Pods_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A358AC8AD0E1348F4BBE9630 /* Pods_Finder.framework */; };
+		5A4BD11475D08F4C74793DAB /* Pods_Finder_FinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9B5417DB84986D7C76BCDA /* Pods_Finder_FinderUITests.framework */; };
 		DB004413234AFFE000997926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB004412234AFFE000997926 /* AppDelegate.swift */; };
 		DB004415234AFFE000997926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB004414234AFFE000997926 /* ViewController.swift */; };
 		DB004418234AFFE000997926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB004416234AFFE000997926 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		DB004420234AFFE200997926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB00441E234AFFE200997926 /* LaunchScreen.storyboard */; };
 		DB00442B234AFFE200997926 /* FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00442A234AFFE200997926 /* FinderTests.swift */; };
 		DB004436234AFFE200997926 /* FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB004435234AFFE200997926 /* FinderUITests.swift */; };
+		DBAD5F31234B845600757C49 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAD5F30234B845600757C49 /* CoreLocation.framework */; };
+		EECF35B253576465C58F9EBA /* Pods_FinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAA10B51E86C530617F23E7 /* Pods_FinderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06BF3BF3720C95FE2055BF25 /* Pods-Finder-FinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finder-FinderUITests.release.xcconfig"; path = "Target Support Files/Pods-Finder-FinderUITests/Pods-Finder-FinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6AE0A6A950718CD261DC9301 /* Pods-Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finder.debug.xcconfig"; path = "Target Support Files/Pods-Finder/Pods-Finder.debug.xcconfig"; sourceTree = "<group>"; };
+		7D9B5417DB84986D7C76BCDA /* Pods_Finder_FinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finder_FinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A358AC8AD0E1348F4BBE9630 /* Pods_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB1F2D6BF857DF7B78A4F07 /* Pods-FinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinderTests.release.xcconfig"; path = "Target Support Files/Pods-FinderTests/Pods-FinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		C82CD0757885051690233EE4 /* Pods-Finder-FinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finder-FinderUITests.debug.xcconfig"; path = "Target Support Files/Pods-Finder-FinderUITests/Pods-Finder-FinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4C2A6FF5C98E6B961ACA898 /* Pods-Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finder.release.xcconfig"; path = "Target Support Files/Pods-Finder/Pods-Finder.release.xcconfig"; sourceTree = "<group>"; };
 		DB00440F234AFFE000997926 /* Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB004412234AFFE000997926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB004414234AFFE000997926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		DB004431234AFFE200997926 /* FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB004435234AFFE200997926 /* FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderUITests.swift; sourceTree = "<group>"; };
 		DB004437234AFFE200997926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBAD5F30234B845600757C49 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FCEC557D2C2E9520ECE00F6B /* Pods-FinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinderTests.debug.xcconfig"; path = "Target Support Files/Pods-FinderTests/Pods-FinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDAA10B51E86C530617F23E7 /* Pods_FinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBAD5F31234B845600757C49 /* CoreLocation.framework in Frameworks */,
+				3F04E73F0A5A84936939137D /* Pods_Finder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECF35B253576465C58F9EBA /* Pods_FinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +87,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4BD11475D08F4C74793DAB /* Pods_Finder_FinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		625E6C1649D1CECE14813FDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AE0A6A950718CD261DC9301 /* Pods-Finder.debug.xcconfig */,
+				D4C2A6FF5C98E6B961ACA898 /* Pods-Finder.release.xcconfig */,
+				C82CD0757885051690233EE4 /* Pods-Finder-FinderUITests.debug.xcconfig */,
+				06BF3BF3720C95FE2055BF25 /* Pods-Finder-FinderUITests.release.xcconfig */,
+				FCEC557D2C2E9520ECE00F6B /* Pods-FinderTests.debug.xcconfig */,
+				AAB1F2D6BF857DF7B78A4F07 /* Pods-FinderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F0E4D5C10D4221560ACC5D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBAD5F30234B845600757C49 /* CoreLocation.framework */,
+				A358AC8AD0E1348F4BBE9630 /* Pods_Finder.framework */,
+				7D9B5417DB84986D7C76BCDA /* Pods_Finder_FinderUITests.framework */,
+				FDAA10B51E86C530617F23E7 /* Pods_FinderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB004406234AFFE000997926 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				DB004429234AFFE200997926 /* FinderTests */,
 				DB004434234AFFE200997926 /* FinderUITests */,
 				DB004410234AFFE000997926 /* Products */,
+				625E6C1649D1CECE14813FDD /* Pods */,
+				8F0E4D5C10D4221560ACC5D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB00443A234AFFE200997926 /* Build configuration list for PBXNativeTarget "Finder" */;
 			buildPhases = (
+				A6560D604ACDE0E0B20191E4 /* [CP] Check Pods Manifest.lock */,
 				DB00440B234AFFE000997926 /* Sources */,
 				DB00440C234AFFE000997926 /* Frameworks */,
 				DB00440D234AFFE000997926 /* Resources */,
+				CABA9113201B9BF27C8FFFAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB00443D234AFFE200997926 /* Build configuration list for PBXNativeTarget "FinderTests" */;
 			buildPhases = (
+				1BB63BE50D9A898F9E52D7F7 /* [CP] Check Pods Manifest.lock */,
 				DB004422234AFFE200997926 /* Sources */,
 				DB004423234AFFE200997926 /* Frameworks */,
 				DB004424234AFFE200997926 /* Resources */,
@@ -170,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB004440234AFFE200997926 /* Build configuration list for PBXNativeTarget "FinderUITests" */;
 			buildPhases = (
+				A6BEB89B9609E6EC3A16BB0D /* [CP] Check Pods Manifest.lock */,
 				DB00442D234AFFE200997926 /* Sources */,
 				DB00442E234AFFE200997926 /* Frameworks */,
 				DB00442F234AFFE200997926 /* Resources */,
+				11C49C3E5C98F5A832CE62E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11C49C3E5C98F5A832CE62E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Finder-FinderUITests/Pods-Finder-FinderUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Finder-FinderUITests/Pods-Finder-FinderUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Finder-FinderUITests/Pods-Finder-FinderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BB63BE50D9A898F9E52D7F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6560D604ACDE0E0B20191E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Finder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6BEB89B9609E6EC3A16BB0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Finder-FinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CABA9113201B9BF27C8FFFAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Finder/Pods-Finder-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Finder/Pods-Finder-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Finder/Pods-Finder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB00440B234AFFE000997926 /* Sources */ = {
@@ -434,11 +586,13 @@
 		};
 		DB00443B234AFFE200997926 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE0A6A950718CD261DC9301 /* Pods-Finder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4C4WWBC624;
 				INFOPLIST_FILE = Finder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +606,13 @@
 		};
 		DB00443C234AFFE200997926 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C2A6FF5C98E6B961ACA898 /* Pods-Finder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4C4WWBC624;
 				INFOPLIST_FILE = Finder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +626,7 @@
 		};
 		DB00443E234AFFE200997926 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCEC557D2C2E9520ECE00F6B /* Pods-FinderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +648,7 @@
 		};
 		DB00443F234AFFE200997926 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB1F2D6BF857DF7B78A4F07 /* Pods-FinderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +670,7 @@
 		};
 		DB004441234AFFE200997926 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82CD0757885051690233EE4 /* Pods-Finder-FinderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +691,7 @@
 		};
 		DB004442234AFFE200997926 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BF3BF3720C95FE2055BF25 /* Pods-Finder-FinderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
