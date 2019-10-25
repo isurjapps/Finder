@@ -17,6 +17,7 @@
 		DB004420234AFFE200997926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB00441E234AFFE200997926 /* LaunchScreen.storyboard */; };
 		DB00442B234AFFE200997926 /* FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00442A234AFFE200997926 /* FinderTests.swift */; };
 		DB004436234AFFE200997926 /* FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB004435234AFFE200997926 /* FinderUITests.swift */; };
+		DB597B9A23520CCF009BB5A6 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB597B9923520CCF009BB5A6 /* Restaurants.swift */; };
 		DBAD5F31234B845600757C49 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAD5F30234B845600757C49 /* CoreLocation.framework */; };
 		EECF35B253576465C58F9EBA /* Pods_FinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAA10B51E86C530617F23E7 /* Pods_FinderTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		DB004431234AFFE200997926 /* FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB004435234AFFE200997926 /* FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderUITests.swift; sourceTree = "<group>"; };
 		DB004437234AFFE200997926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB597B9923520CCF009BB5A6 /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
 		DBAD5F30234B845600757C49 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FCEC557D2C2E9520ECE00F6B /* Pods-FinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinderTests.debug.xcconfig"; path = "Target Support Files/Pods-FinderTests/Pods-FinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDAA10B51E86C530617F23E7 /* Pods_FinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,8 +145,9 @@
 		DB004411234AFFE000997926 /* Finder */ = {
 			isa = PBXGroup;
 			children = (
+				DB597B98234F4871009BB5A6 /* Model */,
+				DB597B97234F4852009BB5A6 /* Controller */,
 				DB004412234AFFE000997926 /* AppDelegate.swift */,
-				DB004414234AFFE000997926 /* ViewController.swift */,
 				DB004416234AFFE000997926 /* Main.storyboard */,
 				DB00441C234AFFE200997926 /* Assets.xcassets */,
 				DB00441E234AFFE200997926 /* LaunchScreen.storyboard */,
@@ -170,6 +173,22 @@
 				DB004437234AFFE200997926 /* Info.plist */,
 			);
 			path = FinderUITests;
+			sourceTree = "<group>";
+		};
+		DB597B97234F4852009BB5A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB004414234AFFE000997926 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB597B98234F4871009BB5A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB597B9923520CCF009BB5A6 /* Restaurants.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB597B9A23520CCF009BB5A6 /* Restaurants.swift in Sources */,
 				DB004415234AFFE000997926 /* ViewController.swift in Sources */,
 				DB00441B234AFFE000997926 /* Finder.xcdatamodeld in Sources */,
 				DB004413234AFFE000997926 /* AppDelegate.swift in Sources */,
