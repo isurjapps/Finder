@@ -17,7 +17,10 @@
 		DB004420234AFFE200997926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB00441E234AFFE200997926 /* LaunchScreen.storyboard */; };
 		DB00442B234AFFE200997926 /* FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00442A234AFFE200997926 /* FinderTests.swift */; };
 		DB004436234AFFE200997926 /* FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB004435234AFFE200997926 /* FinderUITests.swift */; };
-		DB597B9A23520CCF009BB5A6 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB597B9923520CCF009BB5A6 /* Restaurants.swift */; };
+		DB4D67EA239D1E900059DE65 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4D67E8239D1E900059DE65 /* RestaurantTableViewCell.swift */; };
+		DB4D67EB239D1E900059DE65 /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4D67E9239D1E900059DE65 /* RestaurantTableViewCell.xib */; };
+		DB597B9A23520CCF009BB5A6 /* GooglePlacesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB597B9923520CCF009BB5A6 /* GooglePlacesResponse.swift */; };
+		DB7A9AAE2376F72C00D1CB23 /* GetGoogleResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7A9AAD2376F72C00D1CB23 /* GetGoogleResponseData.swift */; };
 		DBAD5F31234B845600757C49 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAD5F30234B845600757C49 /* CoreLocation.framework */; };
 		EECF35B253576465C58F9EBA /* Pods_FinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAA10B51E86C530617F23E7 /* Pods_FinderTests.framework */; };
 /* End PBXBuildFile section */
@@ -61,7 +64,10 @@
 		DB004431234AFFE200997926 /* FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB004435234AFFE200997926 /* FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderUITests.swift; sourceTree = "<group>"; };
 		DB004437234AFFE200997926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB597B9923520CCF009BB5A6 /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		DB4D67E8239D1E900059DE65 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		DB4D67E9239D1E900059DE65 /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantTableViewCell.xib; sourceTree = "<group>"; };
+		DB597B9923520CCF009BB5A6 /* GooglePlacesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesResponse.swift; sourceTree = "<group>"; };
+		DB7A9AAD2376F72C00D1CB23 /* GetGoogleResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGoogleResponseData.swift; sourceTree = "<group>"; };
 		DBAD5F30234B845600757C49 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FCEC557D2C2E9520ECE00F6B /* Pods-FinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinderTests.debug.xcconfig"; path = "Target Support Files/Pods-FinderTests/Pods-FinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDAA10B51E86C530617F23E7 /* Pods_FinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,7 +151,9 @@
 		DB004411234AFFE000997926 /* Finder */ = {
 			isa = PBXGroup;
 			children = (
+				DB7A9AAC2376F6CE00D1CB23 /* Services */,
 				DB597B98234F4871009BB5A6 /* Model */,
+				DB4D67E3239CA47C0059DE65 /* View */,
 				DB597B97234F4852009BB5A6 /* Controller */,
 				DB004412234AFFE000997926 /* AppDelegate.swift */,
 				DB004416234AFFE000997926 /* Main.storyboard */,
@@ -175,6 +183,15 @@
 			path = FinderUITests;
 			sourceTree = "<group>";
 		};
+		DB4D67E3239CA47C0059DE65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB4D67E8239D1E900059DE65 /* RestaurantTableViewCell.swift */,
+				DB4D67E9239D1E900059DE65 /* RestaurantTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DB597B97234F4852009BB5A6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,9 +203,18 @@
 		DB597B98234F4871009BB5A6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DB597B9923520CCF009BB5A6 /* Restaurants.swift */,
+				DB597B9923520CCF009BB5A6 /* GooglePlacesResponse.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DB7A9AAC2376F6CE00D1CB23 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DB7A9AAD2376F72C00D1CB23 /* GetGoogleResponseData.swift */,
+			);
+			name = Services;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB004420234AFFE200997926 /* LaunchScreen.storyboard in Resources */,
+				DB4D67EB239D1E900059DE65 /* RestaurantTableViewCell.xib in Resources */,
 				DB00441D234AFFE200997926 /* Assets.xcassets in Resources */,
 				DB004418234AFFE000997926 /* Main.storyboard in Resources */,
 			);
@@ -430,9 +457,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB597B9A23520CCF009BB5A6 /* Restaurants.swift in Sources */,
+				DB7A9AAE2376F72C00D1CB23 /* GetGoogleResponseData.swift in Sources */,
+				DB597B9A23520CCF009BB5A6 /* GooglePlacesResponse.swift in Sources */,
 				DB004415234AFFE000997926 /* ViewController.swift in Sources */,
 				DB00441B234AFFE000997926 /* Finder.xcdatamodeld in Sources */,
+				DB4D67EA239D1E900059DE65 /* RestaurantTableViewCell.swift in Sources */,
 				DB004413234AFFE000997926 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,7 +568,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -594,7 +623,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
