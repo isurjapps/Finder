@@ -19,7 +19,6 @@
 		DB004436234AFFE200997926 /* FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB004435234AFFE200997926 /* FinderUITests.swift */; };
 		DB4D67EA239D1E900059DE65 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4D67E8239D1E900059DE65 /* RestaurantTableViewCell.swift */; };
 		DB4D67EB239D1E900059DE65 /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4D67E9239D1E900059DE65 /* RestaurantTableViewCell.xib */; };
-		DB597B9A23520CCF009BB5A6 /* GooglePlacesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB597B9923520CCF009BB5A6 /* GooglePlacesResponse.swift */; };
 		DB7A9AAE2376F72C00D1CB23 /* GetGoogleResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7A9AAD2376F72C00D1CB23 /* GetGoogleResponseData.swift */; };
 		DBAD5F31234B845600757C49 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAD5F30234B845600757C49 /* CoreLocation.framework */; };
 		EECF35B253576465C58F9EBA /* Pods_FinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAA10B51E86C530617F23E7 /* Pods_FinderTests.framework */; };
@@ -66,7 +65,6 @@
 		DB004437234AFFE200997926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB4D67E8239D1E900059DE65 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 		DB4D67E9239D1E900059DE65 /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantTableViewCell.xib; sourceTree = "<group>"; };
-		DB597B9923520CCF009BB5A6 /* GooglePlacesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesResponse.swift; sourceTree = "<group>"; };
 		DB7A9AAD2376F72C00D1CB23 /* GetGoogleResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGoogleResponseData.swift; sourceTree = "<group>"; };
 		DBAD5F30234B845600757C49 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FCEC557D2C2E9520ECE00F6B /* Pods-FinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinderTests.debug.xcconfig"; path = "Target Support Files/Pods-FinderTests/Pods-FinderTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -203,7 +201,6 @@
 		DB597B98234F4871009BB5A6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DB597B9923520CCF009BB5A6 /* GooglePlacesResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -458,7 +455,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB7A9AAE2376F72C00D1CB23 /* GetGoogleResponseData.swift in Sources */,
-				DB597B9A23520CCF009BB5A6 /* GooglePlacesResponse.swift in Sources */,
 				DB004415234AFFE000997926 /* ViewController.swift in Sources */,
 				DB00441B234AFFE000997926 /* Finder.xcdatamodeld in Sources */,
 				DB4D67EA239D1E900059DE65 /* RestaurantTableViewCell.swift in Sources */,
